@@ -33,21 +33,40 @@ a {
 .body-one {
   background-color: #1f2937;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  padding: 100px;
 }
 
 .left-body {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  width: 450px;
 }
 
 .hero {
   font-size: 48px;
   font-weight: bold;
   color: #F9FAF8;
+  margin: 0px;
 }
 
 .hero-secondary {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+img {
+  width: 500px;
+  height: auto;
+}
+
+button {
+  background-color: #3882F6;
+  color: white;
+  border-radius: 8px;
+  width: 100px;
+  padding: 10px;
+  font-weight: bold;
+  border-style: none;
 }
