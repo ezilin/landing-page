@@ -46,7 +46,7 @@ a {
 
 .hero {
   font-size: 48px;
-  font-weight: bold;
+  font-weight: 900;
   color: #F9FAF8;
   margin: 0px;
 }
@@ -69,4 +69,69 @@ button {
   padding: 10px;
   font-weight: bold;
   border-style: none;
+}
+
+.body-two {
+  display: flex;
+  flex-direction: column;    
+  margin-bottom: 100px;
+}
+
+.info {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+  padding: 25px;
+}
+
+.info-boxes {
+  display: flex;
+  justify-content: center;
+  column-gap: 58px;
+}
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  width: 150px;
+}
+
+.box {
+  border-color: #3882F6;
+  border: 4px solid #3882F6;
+  border-radius: 8px;
+  height: 150px;
+  width: 150px;
+}
+
+.body-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  width: 775px;
+  margin: 100px;
+}
+
+.saying {
+  color: #1f2937;
+  font-family: Italic;
+  font-weight: 300;
+  font-size: 36px;
+  margin: 0px;
+}
+
+.author {
+  align-self: flex-end;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
 }
